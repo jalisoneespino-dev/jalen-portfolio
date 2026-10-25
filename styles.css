@@ -380,3 +380,15 @@ code { background: var(--surface-soft); padding: 2px 5px; border-radius: 4px; }
   .project-visual.image-visual { height: 235px; }
   .credential-art.image-credential { height: 220px; }
 }
+
+/* Soft Skills adjustments */
+.soft-skill-list li {
+  align-items: flex-start;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.soft-skill-list li::before {
+  flex: 0 0 24px;
+  padding-top: 2px;
+}
