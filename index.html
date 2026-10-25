@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- viewPORT-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#501260">
+  <!-- description -->
+  <meta name="description" content="The portfolio of Jalen Alistair Zione B. Espino, an Information Technology student exploring software, digital experiences, and creative technology.">
+  <meta name="author" content="Jalen Alistair Zione B. Espino">
+  <meta name="robots" content="index, follow">
+  <title>Jalen Espino | IT Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- info -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jalen Alistair Zione B. Espino",
+    "url": "",
+    "email": "alistairbespino@gmail.com",
+    "alumniOf": "Polytechnic University of the Philippines",
+    "knowsAbout": ["Information Technology", "Python", "Java", "JavaScript", "HTML", "CSS", "MySQL", "Photography", "Creative Design"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Jalen Espino home">
+      <span class="brand-mark">J<span>.</span></span>
+      <span class="brand-name">JALEN ESPINO<small>PORTFOLIO / 2026</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <button class="nav-link active" data-view="home" aria-current="page">Home</button>
+      <button class="nav-link" data-view="about">About</button>
+      <button class="nav-link" data-view="projects">Projects</button>
+      <button class="nav-link" data-view="skills">Stack & Skills</button>
+      <button class="nav-link" data-view="certifications">Credentials</button>
+      <button class="nav-link" data-view="contact">Contact</button>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme">◐ <span>Theme</span></button>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION -->
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+    <button class="nav-link active" data-view="home">Home</button>
+    <button class="nav-link" data-view="about">About Me</button>
+    <button class="nav-link" data-view="projects">Project Gallery</button>
+    <button class="nav-link" data-view="skills">Stack & Skills</button>
+    <button class="nav-link" data-view="certifications">Certifications & Trainings</button>
+    <button class="nav-link" data-view="contact">Services & Contact</button>
+  </nav>
+
+  <main id="main-content">
+    <!-- HOME VIEW -->
+    <section class="view home-view active" id="home" data-page="home" aria-labelledby="home-title">
+      <div class="home-grid">
+        <a class="intro-card" href="#about" data-go="about" aria-label="Read more about Jalen">
+          <div class="card-topline"><span class="eyebrow">✳ ABOUT ME</span><span class="tiny-dot"></span></div>
+          <div class="portrait-placeholder"><img src="assets/jalen-photo.jpg" alt="Portrait of Jalen Espino" class="profile-photo"></div>
+          <p class="intro-kicker">Hi! I'm</p>
+          <h1 class="intro-name">Jalen<br>Espino<span>.</span></h1>
+          <p class="intro-summary">IT student · Builder · Creative</p>
+          <div class="intro-bottom"><span>Explore my work ↗</span><span class="round-arrow">↗</span></div>
+        </a>
+
+        <div class="home-main">
+          <div class="home-heading">
+            <p class="eyebrow">A LITTLE BIT OF EVERYTHING I DO</p>
+            <h2 id="home-title">Portfolio<span class="accent-period">.</span></h2>
+            <p class="home-subtitle">Making things easier. One step at a time.</p>
+          </div>
+
+          <button class="feature-card project-feature" data-go="projects" aria-label="Open project gallery">
+            <div class="feature-copy"><span class="eyebrow">01 / SELECTED WORK</span><h3>Ideas into<br><em>experiences.</em></h3><span class="text-link">Explore projects ↗</span></div>
+            <div class="project-art" aria-hidden="true">
+              <div class="art-window"><div class="window-dots">● ● ●</div><div class="art-route"></div><div class="art-pin">↗</div><div class="art-label">BIYAHEASY</div></div>
+              <div class="art-orb"></div>
+              <div class="art-spark">✳</div>
+            </div>
+          </button>
+
+          <div class="stat-stack">
+            <button class="stat-card stat-pink" data-go="certifications"><span class="stat-symbol">✳</span><strong>02</strong><span>Credentials listed</span><small>Certifications & trainings ↗</small></button>
+            <button class="stat-card stat-lilac" data-go="skills"><span class="stat-symbol">⌘</span><strong>07</strong><span>Tools & tech groups</span><small>Stack & skills ↗</small></button>
+          </div>
+
+          <div class="home-bottom">
+            <button class="mini-card mini-dark" data-go="skills"><span class="mini-icon">⌘</span><span><small>WHAT I WORK WITH</small><strong>Tech stack & skills</strong></span><span class="mini-arrow">↗</span></button>
+            <button class="mini-card mini-bright" data-go="contact"><span class="mini-icon">✉</span><span><small>LET'S CONNECT</small><strong>Services & contact</strong></span><span class="mini-arrow">↗</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="home-footer"><span>DESIGNED TO KEEP THINGS SIMPLE</span><span>MARIKINA, PHILIPPINES · <span id="current-year">2026</span></span></div>
+    </section>
+
+    <!-- ABOUT VIEW -->
+    <section class="view" id="about" data-page="about" aria-labelledby="about-title" hidden>
+      <div class="page-heading"><p class="eyebrow">GET TO KNOW ME / 01</p><h2 id="about-title">A little about <span>Ali.</span></h2><p>Curiosity first. Purpose always.</p></div>
+      <div class="about-layout">
+        <div class="about-photo-card">
+          <div class="about-photo-placeholder"><img src="assets/jalen-photo.jpg" alt="Portrait of Jalen Alistair Zione B. Espino" class="about-profile-photo"></div>
+          <div class="photo-caption"><span>JALEN ALISTAIR ZIONE B. ESPINO</span><span>IT STUDENT / CREATIVE</span></div>
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">MY PERSONAL MOTTO</p>
+          <blockquote>“Making Things Easier.<br><span>One Step at a Time.</span>”</blockquote>
+          <p class="about-lead">Hi, I am Ali! I make life easier not just for me but for others as well with the help of technology through innovation and positive impact.</p>
+          <div class="info-grid">
+            <div><span class="info-label">FULL NAME</span><strong>Jalen Alistair Zione B. Espino</strong></div>
+            <div><span class="info-label">UNIVERSITY</span><strong>Polytechnic University of the Philippines</strong></div>
+            <div><span class="info-label">PROGRAM</span><strong>Bachelor of Science in Information Technology</strong></div>
+            <div><span class="info-label">INTERESTS</span><strong>Technology, creatives & photography</strong></div>
+          </div>
+          <div class="button-row">
+            <!-- Add your resume PDF to assets and name it resume.pdf to activate this download. -->
+            <a class="button button-primary" href="assets/resume.pdf" download>Download Resume <span>↓</span></a>
+            <button class="button button-outline" data-go="contact">Let's connect <span>↗</span></button>
+          </div>
+          <p class="small-note">Resume download works after you add your PDF as <code>assets/resume.pdf</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS VIEW -->
+    <section class="view" id="projects" data-page="projects" aria-labelledby="projects-title" hidden>
+      <div class="page-heading page-heading-row"><div><p class="eyebrow">SELECTED WORK / 02</p><h2 id="projects-title">Projects, <span>end to end.</span></h2><p>Small steps, thoughtful solutions, useful experiences.</p></div><span class="section-count">02 PROJECTS</span></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual biyah image-visual">
+            <img src="assets/biyaheasy.jfif" alt="BiyahEasy project preview" class="project-image" loading="lazy">
+            <span class="project-number">PROJECT / 001</span>
+          </div>
+          <div class="project-details"><div class="project-title-row"><div><p class="eyebrow">SMART COMMUTING</p><h3>BiyahEasy</h3></div><span class="project-index">01</span></div><p>A smart commuter guide designed to make everyday travel easier, more flexible, and personalized. It helps users compare ways to reach their destination, including PUVs, public transportation, and booking services.</p><div class="tag-row"><span>Navigation</span><span>Route comparison</span><span>Personalization</span></div><a class="button button-outline repo-link" href="#" data-repository="biyah" aria-label="Repository link for BiyahEasy (not added yet)">View repository <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual libra image-visual">
+            <img src="assets/libralink.jfif" alt="LibraLink project preview" class="project-image" loading="lazy">
+            <span class="project-number">PROJECT / 002</span>
+          </div>
+          <div class="project-details"><div class="project-title-row"><div><p class="eyebrow">DIGITAL LIBRARY</p><h3>LibraLink</h3></div><span class="project-index">02</span></div><p>A unified digital platform that bridges traditional library services with modern student needs through borrowing management, reading assistance, and personalized book discovery.</p><div class="tag-row"><span>Library systems</span><span>Book discovery</span><span>Digital services</span></div><a class="button button-outline repo-link" href="#" data-repository="libra" aria-label="Repository link for LibraLink (not added yet)">View repository <span>↗</span></a></div>
+        </article>
+      </div>
+      <div class="callout-strip"><span class="callout-icon">✳</span><p>Have an idea that could make everyday life a little easier?</p><button class="text-link-button" data-go="contact">Let's talk ↗</button></div>
+    </section>
+
+    <!-- SKILLS VIEW -->
+    <section class="view" id="skills" data-page="skills" aria-labelledby="skills-title" hidden>
+      <div class="page-heading"><p class="eyebrow">TOOLS OF THE TRADE / 03</p><h2 id="skills-title">What I work <span>with.</span></h2><p>A growing toolkit for building, learning, and creating.</p></div>
+      <div class="skills-layout">
+        <div class="skill-groups">
+          <article class="skill-group"><span class="skill-icon">⌘</span><div><h3>Programming languages</h3><p>Python · Java · JavaScript · C</p></div><span class="group-number">01</span></article>
+          <article class="skill-group"><span class="skill-icon">⌗</span><div><h3>Frontend</h3><p>HTML · CSS</p></div><span class="group-number">02</span></article>
+          <article class="skill-group"><span class="skill-icon">▤</span><div><h3>Databases & services</h3><p>MySQL</p></div><span class="group-number">03</span></article>
+          <article class="skill-group"><span class="skill-icon">✳</span><div><h3>AI tools</h3><p>Claude · ChatGPT · Gemini</p></div><span class="group-number">04</span></article>
+          <article class="skill-group"><span class="skill-icon">▣</span><div><h3>Development tools</h3><p>Visual Studio Code · Eclipse IDE · Kiro</p></div><span class="group-number">05</span></article>
+          <article class="skill-group"><span class="skill-icon">◈</span><div><h3>Design & editing</h3><p>Figma · Canva · Adobe Photoshop · CapCut</p></div><span class="group-number">06</span></article>
+          <article class="skill-group"><span class="skill-icon">◎</span><div><h3>Creative skills</h3><p>Photography · Creatives</p></div><span class="group-number">07</span></article>
+        </div>
+        <aside class="soft-skills-card"><p class="eyebrow">HOW I WORK</p><h3>Soft skills<span>.</span></h3><p class="soft-intro">The habits I bring to projects and teams.</p><ol class="soft-skill-list"><li>Communication skills</li><li>Teamwork & collaboration</li><li>Problem-solving</li><li>Time management</li><li>Adaptability</li><li>Critical thinking</li><li>Leadership</li><li>Willingness to learn</li><li>Attention to detail</li><li>Organizational skills</li></ol><div class="soft-footer">ALWAYS LEARNING <span>↗</span></div></aside>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS VIEW -->
+    <section class="view" id="certifications" data-page="certifications" aria-labelledby="certifications-title" hidden>
+      <div class="page-heading page-heading-row"><div><p class="eyebrow">LEARNING IN MOTION / 04</p><h2 id="certifications-title">Credentials & <span>trainings.</span></h2><p>Milestones that mark curiosity, practice, and progress.</p></div><span class="section-count">02 LISTED</span></div>
+      <div class="credential-grid">
+        <article class="credential-card">
+          <div class="credential-art art-hack"><span class="credential-top">HACKATHON / BUILD / SHIP</span><div class="credential-symbol">🚀</div><div class="credential-art-title">Kiroverse<br><em>Shipaton</em></div><span class="credential-stamp">PARTICIPANT</span></div>
+          <div class="credential-info"><p class="eyebrow">HACKATHON</p><h3>Kiroverse Hack Sprint: Shipaton Edition</h3><p>Hack sprint experience focused on turning an idea into a working concept and presenting a solution.</p><span class="credential-status">BGC, Taguig City / 08/14/2026</span></div>
+        </article>
+        <article class="credential-card">
+          <div class="credential-art art-cyber image-credential">
+            <img src="assets/adbi.jfif" alt="Cybersecurity ADBI E-Learning certificate" class="credential-image" loading="lazy">
+          </div>
+          <div class="credential-info"><p class="eyebrow">E-LEARNING</p><h3>Cybersecurity ADBI-E-Learning Completion</h3><p>Completion of cybersecurity e-learning. Add the issuer, completion date, and certificate image when available.</p><span class="credential-status"> ADBI / 10/11/2026</span></div>
+        </article>
+      </div>
+      <div class="notice-box"><span>ⓘ</span><p>To keep this section accurate, no certificate dates, grades, or issuers have been invented. Add those details when you have them.</p></div>
+    </section>
+
+    <!-- CONTACT VIEW -->
+    <section class="view" id="contact" data-page="contact" aria-labelledby="contact-title" hidden>
+      <div class="page-heading"><p class="eyebrow">LET'S MAKE SOMETHING USEFUL / 05</p><h2 id="contact-title">Have a project in <span>mind?</span></h2><p>For collaborations, creative work, and opportunities to learn together.</p></div>
+      <div class="contact-layout">
+        <div class="contact-left">
+          <div class="contact-highlight"><span class="eyebrow">OPEN TO CONVERSATIONS</span><h3>Good ideas<br>start with a <em>hello.</em></h3><p>Tell me what you're working on, what you need, or what you'd like to explore.</p><a class="contact-email" href="mailto:alistairbespino@gmail.com">alistairbespino@gmail.com <span>↗</span></a></div>
+          <div class="contact-links">
+            <a href="https://github.com/jalisoneespino-dev" target="_blank" rel="noopener noreferrer"><span class="social-icon">GH</span><span><small>GITHUB</small><strong>jalisoneespino-dev</strong></span><span class="link-arrow">↗</span></a>
+            <a href="https://www.linkedin.com/in/jalen-alistair-zione-espino-5928b9381/" target="_blank" rel="noopener noreferrer"><span class="social-icon">in</span><span><small>LINKEDIN</small><strong>Jalen Alistair Zione Espino</strong></span><span class="link-arrow">↗</span></a>
+            <a href="tel:+639451307202"><span class="social-icon">☎</span><span><small>PHONE / GLOBE</small><strong>0945 130 7202</strong></span><span class="link-arrow">↗</span></a>
+            <a href="tel:+639924763975"><span class="social-icon">☎</span><span><small>PHONE / DITO</small><strong>0992 476 3975</strong></span><span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <p class="eyebrow">SEND A MESSAGE</p>
+          <h3>Reach me<span>.</span></h3>
+          <label for="visitor-name">Name <span>*</span></label><input id="visitor-name" name="name" autocomplete="name" required placeholder="Your name">
+          <label for="visitor-number">Phone number</label><input id="visitor-number" name="phone" type="tel" autocomplete="tel" placeholder="Optional">
+          <label for="visitor-email">Email <span>*</span></label><input id="visitor-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+          <label for="service-needed">Service needed</label><select id="service-needed" name="service"><option value="General inquiry">Choose a topic</option><option>Website / frontend project</option><option>Creative design</option><option>Photography</option><option>Technical assistance</option><option>Collaboration / volunteer work</option><option>General inquiry</option></select>
+          <label for="visitor-message">Message</label><textarea id="visitor-message" name="message" rows="4" placeholder="A little about what you have in mind..."></textarea>
+          <button class="button button-primary form-submit" type="submit">Prepare email <span>↗</span></button>
+          <p class="form-note" id="form-note">This form opens your default email app; it does not send or store information on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home" data-go="home">J<span>.</span></a><p>Made with curiosity and a little bit of code.</p><a href="#home" data-go="home" class="back-top">BACK TO TOP ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
